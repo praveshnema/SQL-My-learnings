@@ -1,3 +1,4 @@
+--This file contains all learning code from scratch:
 
 -- Creating data base (no need to do every time)
 create database allSQLquerry;
@@ -697,7 +698,7 @@ select * from studentsgroup; --see all the id are auto inserted even you not ins
       -- Write a query to retrieve duplicate records from a table.
 	 select id,name,age,salary,count(id) as repeating_times from repeateddata group by id,name,age,salary having count(id)>1;
 
-     --.Write a query to fetch the department-wise count of employees sorted by department’s count in ascending order.
+     --.Write a query to fetch the department-wise count of employees sorted by departmentÂ’s count in ascending order.
 	 select * from datagyan.dbo.EmployeeInfo;
      select department, count(*) as no_of_employee from datagyan.dbo.EmployeeInfo group by department order by department asc;
 
