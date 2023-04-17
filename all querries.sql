@@ -3,6 +3,7 @@
 -- Creating data base (no need to do every time)
 create database allSQLquerry;
 
+
 -----------------------------------------------------------------------------------------------------------------------------------------
 --changing available database to start working (need to do everytime as it default set to master)
 use allsqlquerry;
